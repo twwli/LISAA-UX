@@ -119,7 +119,6 @@ body {
   width: 87%;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 }
 
 /* Day & Night */
@@ -718,10 +717,7 @@ to {
 
 /* iPad Portrait based on screen width */
 @media screen 
-  and (max-width: 768px)  {	
-  
-
-}
+  and (max-width: 768px)  {}
 
 /* iPhone Portrait based on screen width */
 @media screen 
@@ -743,6 +739,10 @@ to {
     padding: 25px 0;
   }
   
+  .accordion .container {
+    overflow: hidden;
+  }
+
   .row .col li a {
     font-size: 1.25em;
   }
