@@ -361,6 +361,10 @@ section.accordion.inactive.not-acc .trigger-right span {
   display: none;
 }
 
+section.accordion.inactive .acc-dot {
+  border-color: rgba(127, 127, 127, .5);
+}
+
 /* footer.not-acc {
   opacity: .9;
 } */
