@@ -761,7 +761,7 @@ to {
   }
   
   .row .col li .tag {
-    padding: 2px 8px;
+    padding: 0 8px;
   }
   
   footer.not-acc a, footer.not-acc .btn-toggle, .header.not-acc h1, .not-acc .trigger-left h2, .not-acc .trigger-right span {
