@@ -119,6 +119,7 @@ body {
   width: 87%;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 /* Day & Night */
@@ -650,3 +651,121 @@ to {
   opacity: 1;
 }
 
+/* Desktop Computer based on screen width */
+@media screen 
+  and (min-width: 1567px) {	
+  
+  .container {
+    width: 80%;
+  }
+}
+
+/* Large Laptop based on screen width */
+@media screen 
+  and (min-width: 1281px) 
+  and (max-width: 1566px) {	
+  
+}
+
+/* Small Laptop based on screen width */
+@media screen 
+  and (min-width: 1081px) 
+  and (max-width: 1280px) {	
+    
+  .container {
+    width: 90%;
+  }
+}
+
+/* iPad Landscape based on screen width */
+@media screen 
+  and (max-width: 1080px)  {	
+  
+  .container {
+    width: 92%;
+  }
+  
+  h1 {
+    font-size: 11vw;
+  }
+  
+  .section-trigger {
+    font-size: 1.75em;
+  }
+  
+  .trigger-right {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .section-header {
+    font-size: 2.25em;
+  }
+  
+  .row {
+    display: block;
+  }
+  
+  .row .col {
+    width: 100%;
+  }
+  
+  .row .col:nth-child(even) ul,
+  .row .col:nth-child(odd) ul {
+    padding: 0;
+  }
+}
+
+/* iPad Portrait based on screen width */
+@media screen 
+  and (max-width: 768px)  {	
+  
+
+}
+
+/* iPhone Portrait based on screen width */
+@media screen 
+  and (max-width: 480px)  {	
+  
+  header .container {
+    padding: 15px 0 35px;
+  }
+  
+  h1 {
+    font-size: 19.25vw;
+  }
+  
+  h2 span {
+    display: none;
+  }
+  
+  .section-trigger {
+    padding: 25px 0;
+  }
+  
+  .row .col li a {
+    font-size: 1.25em;
+  }
+  
+  .section-content .row:last-of-type {
+    padding: 15px 0 70px;
+  }
+    
+  .section-header {
+    font-size: 8vw;
+  }
+  
+  .row .col li a {
+    font-size: 1.15em;
+    line-height: 1.25em;
+  }
+  
+  .row .col li .tag {
+    padding: 2px 8px;
+  }
+  
+  footer.not-acc a, footer.not-acc .btn-toggle, .header.not-acc h1, .not-acc .trigger-left h2, .not-acc .trigger-right span {
+    opacity: 1;
+  }
+
+}
