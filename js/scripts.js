@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 var accordion = $('.accordion');
 
 accordion.mouseenter(function(){
