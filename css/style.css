@@ -7,15 +7,6 @@
   font-display: swap;
 } 
 
-/* @font-face {
-  font-family: 'aeonik';
-  src: url('../fonts/Aeonik-Bold.woff2') format('woff2'),
-       url('../fonts/Aeonik-Bold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-} */
-
 .preload * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
@@ -364,10 +355,6 @@ section.accordion.inactive.not-acc .trigger-right span {
 section.accordion.inactive .acc-dot {
   border-color: rgba(127, 127, 127, .5);
 }
-
-/* footer.not-acc {
-  opacity: .9;
-} */
 
 /* Dots */
 
