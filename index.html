@@ -5,24 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <meta name="format-detection" content="telephone=no"> -->
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="shortcut icon" type="image/png" href="" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www." />
-    <meta property="og:title" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" name="thumb" content="" />
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://www.">
-    <meta name="twitter:creator" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image:src" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="./light.svg" id="faviconTag" />
 
     <title>LISAA UX Toolbox</title>   
     <link href="/lisaa/css/style.css?v=1629990512" rel="stylesheet">
@@ -581,11 +566,13 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/lisaa/js/scripts.js" type="text/javascript"></script>
       <script>
-      
+       
+      const faviconTag = document.getElementById("faviconTag");
       const btn = document.querySelector(".btn-toggle");
-      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-      
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");   
       const currentTheme = localStorage.getItem("theme");
+      
+      
       if (currentTheme == "dark") {
         document.body.classList.toggle("dark-theme");
       } else if (currentTheme == "light") {
@@ -598,17 +585,22 @@
           var theme = document.body.classList.contains("light-theme")
             ? "light"
             : "dark";
+          faviconTag.href = "./light.svg";
         } else {
           document.body.classList.toggle("dark-theme");
           var theme = document.body.classList.contains("dark-theme")
             ? "dark"
             : "light";
+          faviconTag.href = "./dark.svg";
         }
         localStorage.setItem("theme", theme);
         btn.classList.add("active");
         setTimeout(function() {
         btn.classList.remove('active');
         }, (600));
+        
+        //setInterval(changeFavicon, 1000)
       });
+      
     </script>
 </body>
