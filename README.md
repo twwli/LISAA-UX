@@ -32,6 +32,17 @@ https://olivierguillard.dev/lisaa/
 - Figma Contrast Checker: https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker
 - Figma Color Blind: https://www.figma.com/community/plugin/733343906244951586/Color-Blind
 - Figma Avatars: https://www.figma.com/community/plugin/739659977030056719/Avatars
+- Contrast: https://usecontrast.com/ 
+- Accessible Color Palette Builder: https://toolness.github.io/accessible-color-matrix/
+- ColorBox: https://colorbox.io/
+- WCAG Text: https://contrasteapp.com/
+- Inclusive Design: https://www.microsoft.com/design/inclusive/
+- Accessibility In Product Design: https://www.invisionapp.com/inside-design/color-accessibility-product-design/
+- Stark: https://www.getstark.co/
+- Colorblind Web Page Filter: https://www.toptal.com/designers/colorfilter
+- Colorable: https://colorable.jxnblk.com/
+- Accessible Colors: http://clrs.cc/a11y/
+- Color Accessibility Tool: https://hexnaw.com/
 - From Brand Strategy To Visual Identity: https://www.reaktor.com/blog/moving-from-brand-strategy-to-visual-identity/
 - Customer Journey Map: https://miro.com/app/board/o9J_l1RBMIw=/
 - User Flow Exercise: https://miro.com/app/board/o9J_l1Qhcl0=/?st=Mdocv0Sybd4ckaWzD_B4xg&e=1637660533
