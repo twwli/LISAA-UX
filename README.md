@@ -50,6 +50,20 @@ https://olivierguillard.dev/lisaa/
 - Miro: https://miro.com/
 - Overflow: https://overflow.io/
 
+**Day Four: Prototyping & Testing**
+- How Designers Can Prevent User Errors: https://uxtools.co/blog/how-designers-can-prevent-user-errors/ 
+- 10 Nudge Theory Examples: https://www.dropbox.com/s/3dp1lkhzqmkk779/Nudge-Theory.jpg?dl=0
+- Creating A UX Strategy: https://www.antonsten.com/uxstrategy/
+- Bouba/Kiki Effect: https://en.wikipedia.org/wiki/Bouba/kiki_effect
+- UI Design Trends: https://bootcamp.uxdesign.cc/ui-design-trends-of-today-and-how-to-apply-them-in-your-apps-aa6cd66f9ccf?gi=37d85f02a54b
+- 30 Hypotheses On Interface Aesthetics: https://uxdesign.cc/thirty-hypotheses-on-interface-aesthetics-430ff6d2a666
+- UX Starter Kit: https://www.dropbox.com/s/64ytrzz5vpdnjyd/UX-starter-kit.pdf?dl=0
+- Usability Hub: https://usabilityhub.com/
+- User Testing: https://www.usertesting.com/
+- Lowww (Lightweight Websites): https://www.lowww.directory/
+- Accessibility Myths: https://a11ymyths.com/
+- Design Checklist: https://docs.google.com/document/d/1UXgCpevxSGJcjb44DfjfP521Nvws-Qg52aEKhIz1aPE/edit#heading=h.9g1p35jwhbbx
+
 **Ressources:**
 
 Reader
