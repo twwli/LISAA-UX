@@ -1,5 +1,5 @@
 # LISAA-UX G5
-One-pager for LISAA Strasbourg G5 Workshop — December 2021
+One-pager for LISAA Strasbourg G5 Workshop — December 2021<br />
 https://olivierguillard.dev/lisaa/ux
 
 **Day One: Introduction, Quiz & Games**
