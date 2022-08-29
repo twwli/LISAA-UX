@@ -1,6 +1,6 @@
-# LISAA-UX
-One-pager for LISAA UX Workshop — Strasbourg 2021
-https://olivierguillard.dev/lisaa/
+# LISAA-UX G5
+One-pager for LISAA Strasbourg G5 Workshop — December 2021
+https://olivierguillard.dev/lisaa/ux
 
 **Day One: Introduction, Quiz & Games**
 - Figma: https://www.figma.com/files/recent?fuid=984440224534790002
