@@ -1,5 +1,5 @@
 # LISAA-UX G5
-One-pager for LISAA Strasbourg G5 Workshop — December 2021<br />
+One-pager for LISAA Strasbourg G5 Workshop — December 2022<br />
 https://lisaa.olivierguillard.dev/ux/
 
 **Day One: Introduction, Quiz & Games**
@@ -10,7 +10,7 @@ https://lisaa.olivierguillard.dev/ux/
 - Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines/
 - How To Design For IOS 15.: https://uxplanet.org/how-to-design-for-ios-15-ux-design-tips-from-apples-wwdc21-b3ddcee9176f 
 - Rhetological Fallacies: https://www.informationisbeautiful.net/visualizations/rhetological-fallacies/
-- 35 Apps Ideas For Your Project: https://www.dropbox.com/s/qr3p8zi0ysb9wr9/2021-12-07%2035-apps-ideas.pdf?dl=0
+- Apps Ideas For Your Project: https://lisaa.olivierguillard.dev/ux/apps-ideas.html
 
 **Day Two: Conceptual Research Phase**
 - Web Archives: https://web.archive.org/ 
