@@ -101,7 +101,7 @@ updateColors();
 setTimeout(() => {
     updateColors(true);
     //setInterval(() => updateColors(true), 2700000); // 2700000ms = 45 minutes
-    setInterval(() => updateColors(true), 60000); // 600000ms = 10 minutes
+    setInterval(() => updateColors(true), 120000); // 600000ms = 20 minutes
 }, 100); // Délai de 100ms pour permettre au premier changement de couleur d'être appliqué sans transition
 
 
