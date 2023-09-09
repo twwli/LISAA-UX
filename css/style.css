@@ -243,9 +243,29 @@ body.is-night .footer-right > svg {
 /* Is Resized */
 
 .is-resized {
-  position: absolute;
+  position: fixed;
   inset: 0;
-  z-index: 1;
+  z-index: 1111;
+  background-color: var(--orange);
+  color: var(--bg-light);
+}
+
+body.is-night .is-resized {
+  background-color: var(--purple);
+  color: var(--bg-dark);
+}
+
+#viewport-size {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-family: 'futura condensed';
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#is-resized {
+  display: none;
 }
 
 /* Sections */

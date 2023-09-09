@@ -105,17 +105,34 @@ setTimeout(() => {
 }, 100); // Délai de 100ms pour permettre au premier changement de couleur d'être appliqué sans transition
 
 
+/* Afficher la taille du viewport when resize */
+
+let viewportSize = document.getElementById("viewport-size");
+let isResized = document.getElementById("is-resized");
+
+// Cette fonction met à jour uniquement la taille du viewport.
+function updateViewportSize() {
+  viewportSize.innerHTML = (`width: ${window.innerWidth}px,<br />height: ${window.innerHeight}px`);
+}
+
+// Cette fonction est appelée lors du redimensionnement
+function handleResize() {
+  updateViewportSize();
+  
+  // Afficher la div #is-resized
+  isResized.style.display = "block";
+
+  // Cacher à nouveau la div après 1 seconde
+  setTimeout(() => {
+    isResized.style.display = "none";
+  }, 1000);
+}
+
+window.addEventListener("resize", handleResize);
+updateViewportSize();  // Cet appel met à jour la taille sans afficher la div #is-resized
 
 
-
-
-
-
-
-
-/* Clock */
-
-/* Display Current Time */
+/* Clock: Display Current Time */
 let localTime = document.getElementById("local-time")
 
 function displayTime() {
@@ -133,8 +150,7 @@ displayTime();
 setInterval(displayTime, 1000);
 
 
-
-/* Slides */
+/* Accordions (easier with jQuery) */
 
 $(document).ready(function() {
 
