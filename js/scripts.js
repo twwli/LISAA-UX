@@ -1,7 +1,7 @@
 /* Change colors according to day time */
 
 async function fetchSunTimes(lat, lon) {
-    const response = await fetch('https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lon}&formatted=0');
+    const response = await fetch('https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lon}&formatted=0&nocache=${noCache}');
     const data = await response.json();
     return {
         sunrise: new Date(data.results.sunrise).getUTCHours(),
@@ -75,7 +75,8 @@ updateColors();
 // Après la mise à jour initiale, appliquez la transition et définissez l'intervalle pour les mises à jour ultérieures
 setTimeout(() => {
     updateColors(true);
-    setInterval(() => updateColors(true), 2700000); // 2700000ms = 45 minutes
+    //setInterval(() => updateColors(true), 2700000); // 2700000ms = 45 minutes
+    setInterval(() => updateColors(true), 60000); // 600000ms = 10 minutes
 }, 100); // Délai de 100ms pour permettre au premier changement de couleur d'être appliqué sans transition
 
 
