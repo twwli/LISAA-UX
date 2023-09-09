@@ -27,22 +27,41 @@ async function updateColors(applyTransition = false) {
     console.log('Current segment:', currentSegment); // Afficher le segment actuel
 
     const colors = [
-    "#FBE4EE", /* Segment 0 */
-    "#FBE4EE", /* Segment 1 */
-    "#FDE7E2", /* Segment 2 */
-    "#FDE7E2", /* Segment 3 */
-    "#F4F0E5", /* Segment 4 */
-    "#F4F0E5", /* Segment 5 */
-    "#f8f8f8", /* Segment 6 */
-    "#f8f8f8", /* Segment 7 */
-    "#FFFFFF", /* Segment 8 */
-    "FFFFFF", /* Segment 9 */
-    "#FBF2EF", /* Segment 10 */
-    "#FBF2EF", /* Segment 11 */
-    "#FDE7E2", /* Segment 12 */
-    "#FDE7E2", /* Segment 13 */
-    "#FBE4EE" /* Segment 14 */
+      "#FBE4EE", /* Segment 0 */
+      "#FBE4EE", /* Segment 1 */
+      "#FDE7E2", /* Segment 2 */
+      "#FDE7E2", /* Segment 3 */
+      "#F4F0E5", /* Segment 4 */
+      "#F4F0E5", /* Segment 5 */
+      "#f8f8f8", /* Segment 6 */
+      "#f8f8f8", /* Segment 7 */
+      "#FFFFFF", /* Segment 8 */
+      "FFFFFF", /* Segment 9 */
+      "#FBF2EF", /* Segment 10 */
+      "#FBF2EF", /* Segment 11 */
+      "#FDE7E2", /* Segment 12 */
+      "#FDE7E2", /* Segment 13 */
+      "#FBE4EE" /* Segment 14 */
     ];
+    
+    /* const textColor = [
+      "#000", 
+      "#222", 
+      "#444", 
+      "#666", 
+      "#888", 
+      "#aaa", 
+      "#ccc", 
+      "#eee", 
+      "#fff", 
+      "#eee", 
+      "#ddd", 
+      "#ccc", 
+      "#bbb", 
+      "#aaa", 
+      "#999"
+    ]; */
+
 
     if (currentSegment >= 0 && currentSegment < colors.length) { // Assurez-vous que currentSegment est dans la plage valide
         document.body.style.backgroundColor = colors[currentSegment];
@@ -50,10 +69,16 @@ async function updateColors(applyTransition = false) {
         console.warn('Invalid segment:', currentSegment); // Si currentSegment est hors de portée, afficher un avertissement
     }
     
+    /*if (currentSegment >= 0 && currentSegment < textColor.length) {
+        document.body.style.color = textColor[currentSegment];
+    } else {
+        console.warn('Invalid segment:', currentSegment);
+    } */
+    
     let body = document.body;
     
     if (applyTransition) {
-        body.style.transition = "background-color 900s";
+        body.style.transition = "background-color 900s, color 900s";
     }
 
     if (currentHour < sunrise || currentHour >= sunset) {

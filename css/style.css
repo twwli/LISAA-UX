@@ -240,6 +240,14 @@ body.is-night .footer-right > svg {
   fill: var(--purple);
 }
 
+/* Is Resized */
+
+.is-resized {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
 /* Sections */
 
 section.accordion {
