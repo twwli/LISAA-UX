@@ -1,6 +1,6 @@
 # LISAA-UX
 One-pager for LISAA UI/UX Workshop — Strasbourg 2023
-https://olivierguillard.dev/lisaa/
+https://lisaa.olivierguillard.dev/ux
 
 **Day One: Introduction, Quiz & Games**
 - Figma: https://www.figma.com/files/recent?fuid=984440224534790002
