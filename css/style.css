@@ -670,14 +670,6 @@ body.is-night .row .col li .tag {
 @media screen 
   and (max-width: 1080px)  {	
   
-  .container {
-    width: 92%;
-  }
-  
-  h1 {
-    font-size: 11vw;
-  }
-  
   .section-trigger {
     font-size: 1.75em;
   }
@@ -719,14 +711,25 @@ body.is-night .row .col li .tag {
   
   h1 {
     font-size: 19.25vw;
+    margin-top: 15vw;
   }
-  
-  h2 span {
-    display: none;
-  }
-  
+    
   .section-trigger {
     padding: 25px 0;
+  }
+
+  .section-trigger {
+    font-size: 1.5em;
+  }
+
+  .trigger-left h2 {
+    padding-left: 30px;
+  }
+
+  .acc-dot {
+    width: 18px;
+    height: 18px;
+    border-width: 2px;
   }
   
   .accordion .container {
