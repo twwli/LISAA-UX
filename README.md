@@ -2,7 +2,7 @@
 One-pager for LISAA UI/UX Workshop — Strasbourg 2023
 https://lisaa.olivierguillard.dev/ux
 
-**Day One: Introduction, Quiz & Games**
+**Introduction, Quiz & Games**
 - Figma: https://www.figma.com/files/recent?fuid=984440224534790002
 - Adobe: https://www.adobe.com/fr/products/xd.html
 - Material design: https://material.io/design
@@ -12,7 +12,7 @@ https://lisaa.olivierguillard.dev/ux
 - Rhetological Fallacies: https://www.informationisbeautiful.net/visualizations/rhetological-fallacies/
 - 35 Apps Ideas For Your Project: https://www.dropbox.com/s/qr3p8zi0ysb9wr9/2021-12-07%2035-apps-ideas.pdf?dl=0
 
-**Day Two: Conceptual Research Phase**
+**Conceptual Research Phase**
 - Web Archives: https://web.archive.org/ 
 - Similar Web: https://www.similarweb.com/fr/
 - User Interview Cheatsheet: https://www.dropbox.com/s/qsmvutgvok7k8x2/User-Interview-Follow-Up-Cheatsheet-Stephanie-Walter.pdf?dl=0 
@@ -28,7 +28,7 @@ https://lisaa.olivierguillard.dev/ux
 - UX Starter Kit: https://www.dropbox.com/s/64ytrzz5vpdnjyd/UX-starter-kit.pdf?dl=0 
 - Jake Knapp Sprint Checklists: https://www.dropbox.com/s/pjgp9j8htjf4li1/Official%20Sprint%20Checklists.pdf?dl=0
 
-**Day Three: Exploration, Accessibility & Wireframes**
+**Exploration & Wireframes**
 - Figma Contrast Checker: https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker
 - Figma Color Blind: https://www.figma.com/community/plugin/733343906244951586/Color-Blind
 - Figma Avatars: https://www.figma.com/community/plugin/739659977030056719/Avatars
@@ -50,7 +50,7 @@ https://lisaa.olivierguillard.dev/ux
 - Miro: https://miro.com/
 - Overflow: https://overflow.io/
 
-**Day Four: Prototyping & Testing**
+**Prototyping & Testing**
 - How Designers Can Prevent User Errors: https://uxtools.co/blog/how-designers-can-prevent-user-errors/ 
 - 10 Nudge Theory Examples: https://www.dropbox.com/s/3dp1lkhzqmkk779/Nudge-Theory.jpg?dl=0
 - Creating A UX Strategy: https://www.antonsten.com/uxstrategy/
