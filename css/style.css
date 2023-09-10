@@ -675,8 +675,8 @@ body.is-night .row .col li .tag {
   }
   
   .trigger-right {
-    width: 26px;
-    height: 26px;
+    width: 23px;
+    height: 18px;
   }
   
   .section-header {
@@ -759,6 +759,12 @@ body.is-night .row .col li .tag {
   
   footer.not-acc a, .header.not-acc h1, .not-acc .trigger-left h2, .not-acc .trigger-right span {
     opacity: 1;
+  }
+
+  #is-resized {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
   }
 
 }
