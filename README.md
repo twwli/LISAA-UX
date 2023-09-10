@@ -3,14 +3,15 @@ One-pager for LISAA UI/UX Workshop — Strasbourg 2023
 https://lisaa.olivierguillard.dev/ux
 
 **Introduction, Quiz & Games**
+- Psychology of Design: https://lisaa.olivierguillard.dev/resources/psychology-of-design.pdf 
+- Rhetological Fallacies: https://www.informationisbeautiful.net/visualizations/rhetological-fallacies/
 - Figma: https://www.figma.com/files/recent?fuid=984440224534790002
 - Adobe: https://www.adobe.com/fr/products/xd.html
 - Material design: https://material.io/design
 - Material You For Figma: https://www.figma.com/community/file/1035203688168086460
 - Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines/
-- How To Design For IOS 15.: https://uxplanet.org/how-to-design-for-ios-15-ux-design-tips-from-apples-wwdc21-b3ddcee9176f 
-- Rhetological Fallacies: https://www.informationisbeautiful.net/visualizations/rhetological-fallacies/
-- 35 Apps Ideas For Your Project: https://www.dropbox.com/s/qr3p8zi0ysb9wr9/2021-12-07%2035-apps-ideas.pdf?dl=0
+- HiOS 16 UI Kit for Figma: https://www.figma.com/community/file/1121065701252736567 
+- Apple Design Resources: https://developer.apple.com/design/resources/ 
 
 **Conceptual Research Phase**
 - Web Archives: https://web.archive.org/ 
@@ -20,6 +21,7 @@ https://lisaa.olivierguillard.dev/ux
 - 5W1H Design Canvas: https://miro.com/app/board/o9J_lhNY4WM=/
 - Design Exercise Canvas: https://productdesigninterview.com/canvas/canvas.pdf 
 - 5 Prioritization Methods In UX Roadmapping: https://www.nngroup.com/articles/prioritization-methods/
+- Modèle VPTCS: https://www.opquast.com/rendre-le-web-meilleur/vptcs/ 
 - Proto Persona Canvas: https://miro.com/app/board/o9J_lhMtF00=/?invite_link_id=147972657563
 - Jobs To Be Done Canvas: https://miro.com/app/board/o9J_lhMgyhM=/?invite_link_id=791556838010
 - Impact Effort Matrix: https://miro.com/app/board/o9J_l4N-pMw=/?st=Mdocv0Sybd4ckaWzD_B4xg&e=1637660533
