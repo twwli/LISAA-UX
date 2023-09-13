@@ -125,7 +125,7 @@ function handleResize() {
   // Cacher à nouveau la div après 1 seconde
   setTimeout(() => {
     isResized.style.display = "none";
-  }, 1000);
+  }, 3000);
 }
 
 window.addEventListener("resize", handleResize);
