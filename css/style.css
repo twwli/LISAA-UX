@@ -138,6 +138,13 @@ body.is-day {
   margin-right: auto;
 }
 
+canvas {
+  display: block;
+  position: absolute;
+  inset: 0; /* occupe toute la section */
+  z-index: 9999; /* plus élevé que le h1 */
+  pointer-events: none;
+}
 
 /* Header & Footer */
 
