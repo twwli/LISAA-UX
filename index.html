@@ -711,9 +711,12 @@
       // Couleur
       gltf.scene.traverse((child) => {
         if (child.isMesh && child.material) {
-          child.material.color.set("#F9FCFC");
+          child.material.color.set("#F2F2F2");
         }
       });
+
+      const hemisphereLight = new THREE.HemisphereLight(0x3F3F3F, 0xA5A5A5, 0.5);
+      scene.add(hemisphereLight);
 
       // Recentrage
       gltf.scene.position.x -= center.x;
@@ -804,7 +807,7 @@
         scrollTrigger: {
           trigger: "header",
           start: "top top",
-          end: "+=250%", // Ajustez pour rallonger ou raccourcir la zone "pinnée"
+          end: "+=300%", // Ajustez pour rallonger ou raccourcir la zone "pinnée"
           pin: true,
           scrub: true,
         }

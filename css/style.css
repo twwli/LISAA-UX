@@ -143,7 +143,6 @@ canvas {
   position: absolute;
   inset: 0; /* occupe toute la section */
   z-index: 9999; /* plus élevé que le h1 */
-  pointer-events: none;
 }
 
 /* Header & Footer */
@@ -155,13 +154,17 @@ header .container {
   padding: 35px 0;
 }
 
+header {
+  height: 100vh;
+}
+
 h1 {
   padding: 8vw 0 1vw;
   font-family: 'futura condensed';
   font-size: 15vw;
   line-height: .85;
   text-transform: uppercase;
-  margin-left: -.5vw;
+  text-align: center;
   transition: opacity .2s ease-in-out .1s;
 }
 
@@ -169,6 +172,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 111111;
 }
 
 .logo {
