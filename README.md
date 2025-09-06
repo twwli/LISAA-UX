@@ -1,6 +1,6 @@
 # LISAA-UX
-One-pager for LISAA UI/UX Workshop — Strasbourg 2023
-https://lisaa.olivierguillard.dev/ux
+One-pager for LISAA UI/UX Workshop — Strasbourg 2025
+https://lisaa.olivierguillard.dev/g5
 
 **Introduction, Quiz & Games**
 - Psychology of Design: https://lisaa.olivierguillard.dev/resources/psychology-of-design.pdf 
